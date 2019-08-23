@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@layout/rounded_border_textview">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_alignStart="@+id/tvclose"
+        android:layout_below="@+id/tvclose"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="hello"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/tv3"
+        android:layout_alignStart="@+id/tvclose"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="hello"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/tv4"
+        android:layout_alignEnd="@+id/tvclose"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="hello"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+
+    <TextView
+        android:id="@+id/tvclose"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:text="X"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/semitransparent_white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvclose"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="new"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+
+</RelativeLayout>
